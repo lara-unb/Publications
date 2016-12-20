@@ -1,0 +1,12 @@
+<launch>
+  <env name="PYTHONPATH"  value="$(env PYTHONPATH)"/>
+  <env name="LD_LIBRARY_PATH" value="$(env LD_LIBRARY_PATH):<PATH TO FOLDER naoqi-sdk-2.1.4.13-linux64/lib>:$(find coco_nao)/libs"/>
+
+  <arg name="fixed_frame" default="openni_depth_frame" />
+
+  
+  <node pkg="coco_nao" name="control_nao_arms" type="nao_subscriber_inv.py" output="screen">
+  <rosparam file="$(find coco_nao)/parameters/nao_subscriber_parameters.yaml" command="load" />
+  </node>
+
+</launch>

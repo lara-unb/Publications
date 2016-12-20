@@ -1,0 +1,42 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/motion.dir/src/motion.cpp.o"
+  "CMakeFiles/motion.dir/src/naoqi_module_loader.cpp.o"
+  "CMakeFiles/motion.dir/runswift/motion/MotionAdapter.cpp.o"
+  "CMakeFiles/motion.dir/runswift/motion/MotionOdometry.cpp.o"
+  "CMakeFiles/motion.dir/runswift/motion/SonarRecorder.cpp.o"
+  "CMakeFiles/motion.dir/runswift/motion/effector/AgentEffector.cpp.o"
+  "CMakeFiles/motion.dir/runswift/motion/generator/ActionGenerator.cpp.o"
+  "CMakeFiles/motion.dir/runswift/motion/generator/BodyModel.cpp.o"
+  "CMakeFiles/motion.dir/runswift/motion/generator/ClippedGenerator.cpp.o"
+  "CMakeFiles/motion.dir/runswift/motion/generator/DeadGenerator.cpp.o"
+  "CMakeFiles/motion.dir/runswift/motion/generator/DistributedGenerator.cpp.o"
+  "CMakeFiles/motion.dir/runswift/motion/generator/HeadGenerator.cpp.o"
+  "CMakeFiles/motion.dir/runswift/motion/generator/NullGenerator.cpp.o"
+  "CMakeFiles/motion.dir/runswift/motion/generator/PendulumModel.cpp.o"
+  "CMakeFiles/motion.dir/runswift/motion/generator/RefPickupGenerator.cpp.o"
+  "CMakeFiles/motion.dir/runswift/motion/generator/StandGenerator.cpp.o"
+  "CMakeFiles/motion.dir/runswift/motion/generator/Walk2014Generator.cpp.o"
+  "CMakeFiles/motion.dir/runswift/motion/generator/WalkCycle.cpp.o"
+  "CMakeFiles/motion.dir/runswift/motion/generator/WalkEnginePreProcessor.cpp.o"
+  "CMakeFiles/motion.dir/runswift/motion/touch/AgentTouch.cpp.o"
+  "CMakeFiles/motion.dir/runswift/motion/touch/FeetState.cpp.o"
+  "CMakeFiles/motion.dir/runswift/motion/touch/FilteredTouch.cpp.o"
+  "CMakeFiles/motion.dir/runswift/motion/touch/NullTouch.cpp.o"
+  "CMakeFiles/motion.dir/runswift/motion/touch/SensorOutput.cpp.o"
+  "CMakeFiles/motion.dir/runswift/motion/touch/TorsoStateFilter.cpp.o"
+  "CMakeFiles/motion.dir/runswift/perception/kinematics/Kinematics.cpp.o"
+  "CMakeFiles/motion.dir/runswift/perception/kinematics/Parameters.cpp.o"
+  "CMakeFiles/motion.dir/runswift/perception/kinematics/Pose.cpp.o"
+  "CMakeFiles/motion.dir/runswift/perception/kinematics/SonarFilter.cpp.o"
+  "CMakeFiles/motion.dir/runswift/perception/vision/Camera.cpp.o"
+  "CMakeFiles/motion.dir/runswift/gamecontroller/RoboCupGameControlData.cpp.o"
+  "CMakeFiles/motion.dir/runswift/utils/options.cpp.o"
+  "CMakeFiles/motion.dir/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/common/motionData.cpp.o"
+  "sdk/lib/naoqi/libmotion.pdb"
+  "sdk/lib/naoqi/libmotion.so"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/motion.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)
