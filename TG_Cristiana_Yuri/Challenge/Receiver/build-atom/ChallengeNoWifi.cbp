@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="ChallengeNoWifi" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\.local\;CMake Files\..\..\..\..\..\..\.local\share\;CMake Files\..\..\..\..\..\..\.local\share\qi\;CMake Files\..\..\..\..\..\..\.local\share\qi\toolchains\;CMake Files\..\..\..\..\..\..\.local\share\qi\toolchains\atom\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\;CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\;CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\internal\;CMake Files\..\..\..\..\..\devtools\;CMake Files\..\..\..\..\..\devtools\ctc-linux64-atom-2.1.4.13\;CMake Files\build-atom\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ChallengeNoWifi">
+         <Option output="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/sdk/bin/ChallengeNoWifi" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/boost/include/boost-1_55" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/bzip2/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/cross/i686-aldebaran-linux-gnu/sysroot/usr/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/ffi/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/ffmpeg/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/glib2/include/glib-2.0" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/glib2/lib/glib-2.0/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/gstreamer/include/gstreamer-0.10" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/jpeg/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/libnaoqi/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/openni2/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/png/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/tbb/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/tiff/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/udev/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/usb_1/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/v4l/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/xml2/include/libxml2" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/zlib/include" />
+            <Add directory="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/include" />
+            <Add directory="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/common" />
+            <Add directory="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/motion/runswift" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 ChallengeNoWifi" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ChallengeNoWifi/fast">
+         <Option output="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/sdk/bin/ChallengeNoWifi" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/boost/include/boost-1_55" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/bzip2/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/cross/i686-aldebaran-linux-gnu/sysroot/usr/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/ffi/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/ffmpeg/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/glib2/include/glib-2.0" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/glib2/lib/glib-2.0/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/gstreamer/include/gstreamer-0.10" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/jpeg/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/libnaoqi/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/openni2/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/png/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/tbb/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/tiff/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/udev/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/usb_1/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/v4l/include" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/xml2/include/libxml2" />
+            <Add directory="/home/cris/nao/devtools/ctc-linux64-atom-2.1.4.13/zlib/include" />
+            <Add directory="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/include" />
+            <Add directory="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/common" />
+            <Add directory="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/motion/runswift" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 ChallengeNoWifi/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/main.cpp">
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/src/CommRobot.cpp">
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/src/ReceiverRobot.cpp">
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/src/TransmitterRobot.cpp">
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/common/Conversions.cpp">
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/common/ledAuxiliarFunctions.cpp">
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/common/motionAuxiliarFunctions.cpp">
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/common/motionData.cpp">
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/common/motionNAOqiFunction.cpp">
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/common/Conversions.hpp">
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/common/ledAuxiliarFunctions.hpp">
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/common/motionAuxiliarFunctions.hpp">
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/common/motionData.hpp">
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/common/motionNAOqiFunction.hpp">
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../.local/share/qi/toolchains/atom/toolchain-atom.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\.local\share\qi\toolchains\atom\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/qibuild-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/general.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/log.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/set.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/subdirectory.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/python.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/find.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/flags.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/tests.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/install.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/target.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/submodule.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/stage.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/option.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/codegen.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/gettext.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/git.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/internal/layout.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/internal/install.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/internal/glob.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/internal/tests.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/internal/stage.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/internal/list.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/internal/uselib.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../../../../usr/local/share/cmake/qibuild/internal/list.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/../../../../../devtools/ctc-linux64-atom-2.1.4.13/cross-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\devtools\ctc-linux64-atom-2.1.4.13\" />
+      </Unit>
+      <Unit filename="/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-atom/dependencies.cmake">
+          <Option virtualFolder="CMake Files\build-atom\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

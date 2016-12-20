@@ -1,0 +1,6 @@
+string chain
+
+float64[] initial_thetas
+
+---
+float64[] thetas
