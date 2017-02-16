@@ -1,3 +1,0 @@
-/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/motion/build-atom/CMakeFiles/agent.dir
-/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/motion/build-atom/CMakeFiles/motion.dir
-/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/motion/build-atom/CMakeFiles/motionClient.dir
