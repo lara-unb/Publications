@@ -1,1 +1,0 @@
-/home/cris/nao/workspace/UnBeatables2016/UnBeatables/Challenge/Receiver/build-local/CMakeFiles/ChallengeNoWifi.dir
