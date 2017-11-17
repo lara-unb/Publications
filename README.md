@@ -1,6 +1,6 @@
 # Listagem de TGs
 ## 2016/02
-* Cristiana e Yuri: Métodos de comunicação visual e controle cooperativo entre robôs humanoides
+* Cristiana e Yuri: [Métodos de comunicação visual e controle cooperativo entre robôs humanoides](TG_Cristiana_Yuri.pdf)
 * Fujita e Allan: Controle em malha fechada para guiagem de agulhas flexíveis a partir de imagens de câmera
 * Henrique Balbino: Desenvolvimento de sistema de teleoperação para robô humanoide
 * Marcos Pereira: Trajectory control of anthropomorphic compliant manipulator with dual quaternion based kinematic controllers
