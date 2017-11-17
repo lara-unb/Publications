@@ -9,3 +9,6 @@
 ## 2016/01
 * Eric Torlig: [Sistema de estimulação elétrica funcional controlado por eletromiografia para preensão palmar por pacientes hemiplégicos](2016_01/TG_Eric_Torlig.pdf)
 * De Hong e Rodrigo: [SLAM visual monocular baseado em filtro de Kalman estendido para robôs aéreos](2016_01/TG_DeHong_Rodrigo.pdf)
+
+## 2015/02
+* Keyla Kiyoku: [Rastreamento de agulhas flexíveis em imagens de ultrassom para uso robótico de inserção automática](2015_02/TG_Keyla_Kiyoku.pdf)
