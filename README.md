@@ -7,5 +7,5 @@
 * Raphael Arthur: [Localização de robô humanoide aplicado a futebol de robôs](2016_02/TG_Raphael_Arthur.pdf)
 
 ## 2016/01
-* Eric Torlig: Sistema de estimulação elétrica funcional controlado por eletromiografia para preensão palmar por pacientes hemiplégicos
-* De Hong e Rodrigo: SLAM visual monocular baseado em filtro de Kalman estendido para robôs aéreos
+* Eric Torlig: [Sistema de estimulação elétrica funcional controlado por eletromiografia para preensão palmar por pacientes hemiplégicos](2016_01/TG_Eric_Torlig.pdf)
+* De Hong e Rodrigo: [SLAM visual monocular baseado em filtro de Kalman estendido para robôs aéreos](2016_01/TG_DeHong_Rodrigo.pdf)
