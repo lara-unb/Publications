@@ -1,4 +1,6 @@
 # Listagem de TGs
+## 2017/02
+* Rafael Koji: [Teleoperação de robô manipulador atravs de interface háptica com feedback de força](2017_02/TG_Rafael_Koji.pdf)
 ## 2016/02
 * Cristiana e Yuri: [Métodos de comunicação visual e controle cooperativo entre robôs humanoides](2016_02/TG_Cristiana_Yuri.pdf)
 * Fujita e Allan: [Controle em malha fechada para guiagem de agulhas flexíveis a partir de imagens de câmera](2016_02/TG_Fujita_allan.pdf)
