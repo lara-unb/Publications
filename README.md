@@ -2,6 +2,9 @@
 ## 2018/02
 * Rafael Lima: [Estudo e caracterização de arquitetura de controle em braço robótico complacente](2018_02/TG_Rafael_Lima.pdf)
 
+## 2018/01
+* William Batista: [Controle de Climatização Híbrida Visando a Redução do Consumo de Energia](2018_01/TG_William_Batista.pdf)
+
 ### 2017/02
 * Rafael Koji: [Teleoperação de robô manipulador atravs de interface háptica com feedback de força](2017_02/TG_Rafael_Koji.pdf)
 
